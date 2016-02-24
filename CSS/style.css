@@ -68,6 +68,14 @@ p {
 	}
 }
 
+/* Assignment 30 
+@media (min-width: 1920px) {
+	.container {
+		width: 1882px;
+	}
+}
+*/
+
 /* HEADER */
 header {
 	color:#ffffff;
@@ -78,15 +86,15 @@ header nav {
 	padding: 1em 0;
 }
 header nav ul {
-	display: inline;
+	display:inline;
 	text-align: right;
-	float: right;
-	margin: 0;
+	float:right;
+	margin:0;
 }
 header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
-	margin: 0 15px;
+	margin:0 15px;
 }
 header nav ul > li.btn-outline {
 	padding: 10px 15px;
@@ -123,6 +131,22 @@ header .hero img {
 display: block;
 margin:3em auto 0;
 }
+
+/* Assignment 30
+header .hero h1 {
+	color: #ffff00;
+	font-size: 64px;
+	font-weight: normal;
+	margin: 75px 0 0;
+}
+header .hero p {
+	color: #ffff00;
+	font-size: 40px;
+	line-height: 36px;
+	font-weight: 300;
+	margin: 15px 0 60px;
+}
+*/
 
 /* Buttons */
 .btn {
