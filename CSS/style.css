@@ -314,3 +314,54 @@ header .hero p {
 	font-size: 13px;
 	margin-top: 30px;
 }
+
+/* FOOTER */
+footer {
+	background-color: #34495e;
+	background-image: linear-gradient (to top, #3498db 0%, #3498db 50%, #34495e 50%, #34495e 100%);
+	color: #ffffff;
+	height: 150px;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+}
+footer p, footer nav ul {
+	font-size:14px;
+	font-weight:100;
+	text-align: center;
+	margin: 10px auto 0;
+}
+footer nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+footer nav ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+footer .right0footer-block {
+	background-color: transparent;
+}
+footer .logo{
+	padding:2.35em 0;
+	margin:0 auto;
+	display: block;
+}
+@media (min-width: 992px){
+	footer{
+		background-color: #3498db;
+		background-image: linear-gradient(to left, #3498db 0%, #3498db 33.33337%, #34495e 33.333337%, #34495e 100%);
+		height: 100px;
+	}
+	footer p, footer nav ul{
+		padding:2em 0;
+		text-align: left;
+	}
+	footer .right-footer-block{
+		background-color: #3498db;
+	}
+	footer .logo{
+		padding:2em 0 2em 1.5em;
+	}
+}
+
