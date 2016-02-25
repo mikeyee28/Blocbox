@@ -283,6 +283,9 @@ header .hero p {
 	width: auto;
 	margin: 0;
 }
+.stagger {
+	margin-top: 20px;
+}
 .testimonials blockquote:after {
 	top:100%;
 	left: 13%;
