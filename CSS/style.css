@@ -365,3 +365,17 @@ footer .logo{
 		padding:2em 0 2em 1.5em;
 	}
 }
+
+
+/* DASHBOARD */
+
+/* MAIN */
+
+div.item-image {
+	position: relative;
+	float: left;
+	display: inline-block;
+	width: 23%;
+	height: 24%;
+	padding: .5em;
+}
