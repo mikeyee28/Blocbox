@@ -28,7 +28,7 @@ p {
   position: relative;
 }
 .container:before,
-.container:after {å
+.container:after {
   content: " ";
   display: table;
 }
