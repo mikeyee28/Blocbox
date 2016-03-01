@@ -69,14 +69,6 @@ p {
 	}
 }
 
-/* Assignment 30 
-@media (min-width: 1920px) {
-	.container {
-		width: 1882px;
-	}
-}
-*/
-
 /* HEADER */
 header {
 	color:#ffffff;
@@ -132,22 +124,6 @@ header .hero img {
 display: block;
 margin:3em auto 0;
 }
-
-/* Assignment 30
-header .hero h1 {
-	color: #ffff00;
-	font-size: 64px;
-	font-weight: normal;
-	margin: 75px 0 0;
-}
-header .hero p {
-	color: #ffff00;
-	font-size: 40px;
-	line-height: 36px;
-	font-weight: 300;
-	margin: 15px 0 60px;
-}
-*/
 
 /* Buttons */
 .btn {
@@ -366,16 +342,15 @@ footer .logo{
 	}
 }
 
-
 /* DASHBOARD */
 
 /* MAIN */
 
 div.item-image {
-	position: relative;
-	float: left;
-	display: inline-block;
-	width: 23%;
-	height: 24%;
-	padding: .5em;
+  overflow:hidden;
+  width:23%;
+  height: auto;
+  position:relative;
+  float: left;
+  padding:.2em .5em;
 }
