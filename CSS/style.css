@@ -28,7 +28,7 @@ p {
   position: relative;
 }
 .container:before,
-.container:after {å
+.container:after {
   content: " ";
   display: table;
 }
@@ -257,6 +257,7 @@ header .hero p {
   right:20px;
 }
 .small {
+  clear:both;
   font-size: 12px;
   color:#fefefe;
   line-height: 15px;
@@ -316,8 +317,19 @@ header .hero p {
   margin-top: 30px;
 }
 
+/* Assignment 28 */
+.Assignment_28_cta {
+  clear:both;
+  width:30em;
+  margin: 4em 33.33333333%;
+  text-align: center;
+  float:right;
+  position: relative;
+}
+
 /* FOOTER */
 footer {
+  clear:both;
   background-color: #34495e;
   background-image: linear-gradient (to top, #3498db 0%, #3498db 50%, #34495e 50%, #34495e 100%);
   color: #ffffff;
