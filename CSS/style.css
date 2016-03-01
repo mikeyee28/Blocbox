@@ -410,8 +410,8 @@ footer .logo{
 	font-weight: 100;
 }
 .left-nav .items ul li a.active {
-	background: #22303e;
-	padding: .2em .5em;
+/*background: #22303e;  
+	padding: .2em .5em; Assignment 34*/
 	border-radius: 4px;
 }
 .left-nav .items ul li a i {
