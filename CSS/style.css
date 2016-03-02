@@ -476,14 +476,19 @@ footer .logo{
 	font-weight: 400;
 	margin: 0 0 0 10px;
 }
-.left-nav .settings a {
+
+.left-nav .settings ul {
+	margin-right:15px;
+	margin-top:10px;
+}
+.left-nav .settings ul a {
+	clear: both;
 	color:#ffffff;
 	text-decoration: none;
 	text-align: right;
 	float: right;
-	margin-right: 10px;
-	margin-top: 8px;
 }
+
 
 /* CONTENT */
 .content {
