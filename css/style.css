@@ -55,7 +55,13 @@ p {
   .container {
     width: 970px;
   }
+  header .hero img {
+    display: block;
+    margin:3em auto 0;
+    width:auto;
+   }
 }
+
 @media (min-width: 1200px) {
   .container {
     width: 1170px;
@@ -125,7 +131,7 @@ margin:3em auto 0;
 header .hero img {
     display: block;
     margin:3em auto 0;
-    width:100%;
+    width:90%;
   }
 }
 /* Buttons */
